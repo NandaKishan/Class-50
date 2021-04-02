@@ -1,0 +1,55 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+}
+
+/* h1{
+} */
+
+.header{
+    background-color: cadetblue;
+    /* display: flex; */
+    justify-content: space-between;
+    text-decoration: underline;
+}
+
+.header a{
+    padding-left: 1280px;
+}
+
+.header h1{
+    text-align: center;
+}
+
+.gamelist{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h2,p{
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: coral;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.game:hover{
+    cursor: pointer;
+    border-radius: 30px;
+    border: solid 10px;
+    background-color: cyan;
+}
